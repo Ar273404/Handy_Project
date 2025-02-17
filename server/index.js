@@ -32,6 +32,9 @@ const PORT = process.env.PORT || 8003;
 // MongoDB Connection
 connectDB();
 
+app.get("/", (req, res) => {
+  res.send("hello Welcome to Handy-Website");
+});
 
 app.listen(PORT, () => {
     console.log(`server is listening on port:${PORT}`);
