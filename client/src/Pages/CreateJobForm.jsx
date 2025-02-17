@@ -5,7 +5,7 @@ import { toast } from 'react-toastify';
 const CreateJobForm = () => {
   const [formData, setFormData] = useState({
     title: '',
-    description: '',
+    description: '',   // h
     city: '',
     state: '',
     compensation: '',
